@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\content\\pch2210900101model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\content\\pch2210900101model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\models\\pch_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\models\\pch_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\views\\pchhome\\pchcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\views\\pchhome\\pchcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\views\\shared\\_pch2210900101layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\views\\shared\\_pch2210900101layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\controllers\\pchhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\controllers\\pchhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|c:\\k22cnt3 aspnetmvc\\pchk22cnt3lesson12_2210900101\\pchk22cnt3lesson12_2210900101\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFB9C5D-E741-4F07-B7CC-DBF5643556AB}|PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101.csproj|solutionrelative:pchk22cnt3lesson12_2210900101\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pch2210900101Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Content\\Pch2210900101Model.edmx",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Content\\Pch2210900101Model.edmx",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Content\\Pch2210900101Model.edmx [Diagram1]*",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Content\\Pch2210900101Model.edmx [Diagram1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-11T10:54:10.574Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pch_TacGiaController.cs",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Models\\Pch_TacGiaController.cs",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Models\\Pch_TacGiaController.cs",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Models\\Pch_TacGiaController.cs",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Models\\Pch_TacGiaController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T09:46:03.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:59:02.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PchContact.cshtml",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\PchHome\\PchContact.cshtml",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Views\\PchHome\\PchContact.cshtml",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\PchHome\\PchContact.cshtml",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Views\\PchHome\\PchContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T08:53:04.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Pch2210900101Layout.cshtml",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\Shared\\_Pch2210900101Layout.cshtml",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Views\\Shared\\_Pch2210900101Layout.cshtml",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\Shared\\_Pch2210900101Layout.cshtml",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Views\\Shared\\_Pch2210900101Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T08:46:51.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PchHomeController.cs",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Controllers\\PchHomeController.cs",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Controllers\\PchHomeController.cs",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Controllers\\PchHomeController.cs",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Controllers\\PchHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:45:15.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PchK22CNT3Lesson12_2210900101\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\k22cnt3 aspnetmvc\\PchK22CNT3Lesson12_2210900101\\PchK22CNT3Lesson12_2210900101\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PchK22CNT3Lesson12_2210900101\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T08:44:39.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

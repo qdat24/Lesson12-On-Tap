@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PHAMCONGHIEU_2210900101Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Pch_Sach">
+          <Key>
+            <PropertyRef Name="Pch_MaSach" />
+          </Key>
+          <Property Name="Pch_MaSach" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="Pch_TenSach" Type="nvarchar" MaxLength="50" />
+          <Property Name="Pch_SoTrang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Pch_NamXB" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Pch_MaTG" Type="nvarchar" MaxLength="50" />
+          <Property Name="Pch_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="Pch_TacGia">
+          <Key>
+            <PropertyRef Name="Pch_MaTG" />
+          </Key>
+          <Property Name="Pch_MaTG" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="Pch_TenTacGia" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="PHAMCONGHIEU_2210900101ModelStoreContainer">
+          <EntitySet Name="Pch_Sach" EntityType="Self.Pch_Sach" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Pch_TacGia" EntityType="Self.Pch_TacGia" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PHAMCONGHIEU_2210900101Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Pch_Sach">
+          <Key>
+            <PropertyRef Name="Pch_MaSach" />
+          </Key>
+          <Property Name="Pch_MaSach" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Pch_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Pch_SoTrang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Pch_NamXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Pch_MaTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Pch_TrangThai" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Pch_TacGia">
+          <Key>
+            <PropertyRef Name="Pch_MaTG" />
+          </Key>
+          <Property Name="Pch_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Pch_TenTacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="PHAMCONGHIEU_2210900101Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Pch_Sach" EntityType="Self.Pch_Sach" />
+          <EntitySet Name="Pch_TacGia" EntityType="Self.Pch_TacGia" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PHAMCONGHIEU_2210900101ModelStoreContainer" CdmEntityContainer="PHAMCONGHIEU_2210900101Entities1">
+          <EntitySetMapping Name="Pch_Sach">
+            <EntityTypeMapping TypeName="PHAMCONGHIEU_2210900101Model.Pch_Sach">
+              <MappingFragment StoreEntitySet="Pch_Sach">
+                <ScalarProperty Name="Pch_MaSach" ColumnName="Pch_MaSach" />
+                <ScalarProperty Name="Pch_TenSach" ColumnName="Pch_TenSach" />
+                <ScalarProperty Name="Pch_SoTrang" ColumnName="Pch_SoTrang" />
+                <ScalarProperty Name="Pch_NamXB" ColumnName="Pch_NamXB" />
+                <ScalarProperty Name="Pch_MaTG" ColumnName="Pch_MaTG" />
+                <ScalarProperty Name="Pch_TrangThai" ColumnName="Pch_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pch_TacGia">
+            <EntityTypeMapping TypeName="PHAMCONGHIEU_2210900101Model.Pch_TacGia">
+              <MappingFragment StoreEntitySet="Pch_TacGia">
+                <ScalarProperty Name="Pch_MaTG" ColumnName="Pch_MaTG" />
+                <ScalarProperty Name="Pch_TenTacGia" ColumnName="Pch_TenTacGia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

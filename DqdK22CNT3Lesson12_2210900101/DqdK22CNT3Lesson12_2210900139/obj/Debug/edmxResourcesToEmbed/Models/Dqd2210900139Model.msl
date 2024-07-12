@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DINHQUOCDAT_2210900139ModelStoreContainer" CdmEntityContainer="DINHQUOCDAT_2210900139Entities">
+    <EntitySetMapping Name="Dqd_Sach">
+      <EntityTypeMapping TypeName="DINHQUOCDAT_2210900139Model.Dqd_Sach">
+        <MappingFragment StoreEntitySet="Dqd_Sach">
+          <ScalarProperty Name="Dqd_MaSach" ColumnName="Dqd_MaSach" />
+          <ScalarProperty Name="Dqd_TenSach" ColumnName="Dqd_TenSach" />
+          <ScalarProperty Name="Dqd_SoTrang" ColumnName="Dqd_SoTrang" />
+          <ScalarProperty Name="Dqd_MaTG" ColumnName="Dqd_MaTG" />
+          <ScalarProperty Name="Dqd_TrangThai" ColumnName="Dqd_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dqd_TacGia">
+      <EntityTypeMapping TypeName="DINHQUOCDAT_2210900139Model.Dqd_TacGia">
+        <MappingFragment StoreEntitySet="Dqd_TacGia">
+          <ScalarProperty Name="Dqd_MaTG" ColumnName="Dqd_MaTG" />
+          <ScalarProperty Name="Dqd_TenTacGia" ColumnName="Dqd_TenTacGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

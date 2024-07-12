@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DINHQUOCDAT_2210900139Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Dqd_Sach">
+    <Key>
+      <PropertyRef Name="Dqd_MaSach" />
+    </Key>
+    <Property Name="Dqd_MaSach" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Dqd_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dqd_SoTrang" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dqd_NamXB" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dqd_MaTG" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dqd_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="Dqd_TacGia">
+    <Key>
+      <PropertyRef Name="Dqd_MaTG" />
+    </Key>
+    <Property Name="Dqd_MaTG" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Dqd_TenTacGia" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="DINHQUOCDAT_2210900139ModelStoreContainer">
+    <EntitySet Name="Dqd_Sach" EntityType="Self.Dqd_Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dqd_TacGia" EntityType="Self.Dqd_TacGia" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

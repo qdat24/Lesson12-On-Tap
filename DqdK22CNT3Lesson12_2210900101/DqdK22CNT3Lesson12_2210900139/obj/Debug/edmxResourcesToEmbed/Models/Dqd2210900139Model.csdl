@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DINHQUOCDAT_2210900139Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Dqd_Sach">
+    <Key>
+      <PropertyRef Name="Dqd_MaSach" />
+    </Key>
+    <Property Name="Dqd_MaSach" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Dqd_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dqd_SoTrang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dqd_NamXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dqd_MaTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dqd_TrangThai" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Dqd_TacGia">
+    <Key>
+      <PropertyRef Name="Dqd_MaTG" />
+    </Key>
+    <Property Name="Dqd_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Dqd_TenTacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DINHQUOCDAT_2210900139Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Dqd_Sach" EntityType="Self.Dqd_Sach" />
+    <EntitySet Name="Dqd_TacGia" EntityType="Self.Dqd_TacGia" />
+  </EntityContainer>
+</Schema>
